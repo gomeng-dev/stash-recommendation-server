@@ -1,0 +1,401 @@
+.stash-hybrid-rec {
+  padding: 1rem 0.25rem 1.5rem;
+}
+
+.stash-hybrid-rec__header {
+  align-items: flex-start;
+  display: flex;
+  gap: 1rem;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.stash-hybrid-rec__title {
+  margin: 0 0 0.25rem;
+}
+
+.stash-hybrid-rec__subtitle,
+.stash-hybrid-rec__hint,
+.stash-hybrid-rec-card__meta,
+.stash-hybrid-rec-card__reasons {
+  color: var(--text-muted, #adb5bd);
+  font-size: 0.86rem;
+}
+
+.stash-hybrid-rec__actions {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  justify-content: flex-end;
+}
+
+.stash-hybrid-rec__limit-control {
+  align-items: center;
+  display: flex;
+  gap: 0.45rem;
+  margin: 0;
+}
+
+.stash-hybrid-rec__limit-control span {
+  color: var(--text-muted, #adb5bd);
+  font-size: 0.82rem;
+  white-space: nowrap;
+}
+
+.stash-hybrid-rec__limit-control input {
+  max-width: 5.5rem;
+}
+
+.stash-hybrid-rec__settings {
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 0.5rem;
+  display: grid;
+  gap: 0.75rem;
+  grid-template-columns: minmax(260px, 2fr) minmax(140px, 1fr) minmax(90px, 0.6fr);
+  margin-bottom: 1rem;
+  padding: 0.85rem;
+}
+
+.stash-hybrid-rec__settings label {
+  display: flex;
+  flex-direction: column;
+  font-size: 0.82rem;
+  gap: 0.25rem;
+  margin: 0;
+}
+
+.stash-hybrid-rec__settings .stash-hybrid-rec__hint {
+  grid-column: 1 / -1;
+}
+
+.stash-hybrid-rec__alert,
+.stash-hybrid-rec__loading {
+  margin: 1rem 0;
+}
+
+.stash-hybrid-rec__loading {
+  align-items: center;
+  display: flex;
+  gap: 0.5rem;
+}
+
+.stash-hybrid-rec__grid {
+  display: grid;
+  gap: 0.85rem;
+  grid-template-columns: repeat(auto-fill, minmax(190px, 1fr));
+}
+
+.stash-hybrid-rec-card {
+  background: rgba(255, 255, 255, 0.045);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 0.65rem;
+  color: inherit;
+  display: block;
+  min-width: 0;
+  overflow: hidden;
+  text-decoration: none;
+  transition: transform 120ms ease, border-color 120ms ease, background 120ms ease;
+}
+
+.stash-hybrid-rec-card:hover,
+.stash-hybrid-rec-card:focus {
+  background: rgba(255, 255, 255, 0.075);
+  border-color: rgba(107, 171, 255, 0.55);
+  color: inherit;
+  text-decoration: none;
+  transform: translateY(-1px);
+}
+
+.stash-hybrid-rec-card__imageWrap {
+  aspect-ratio: 16 / 9;
+  background: #111820;
+  position: relative;
+}
+
+.stash-hybrid-rec-card__image,
+.stash-hybrid-rec-card__placeholder {
+  height: 100%;
+  inset: 0;
+  object-fit: cover;
+  position: absolute;
+  width: 100%;
+}
+
+.stash-hybrid-rec-card__placeholder {
+  align-items: center;
+  color: #718091;
+  display: flex;
+  font-size: 0.9rem;
+  justify-content: center;
+}
+
+.stash-hybrid-rec-card__score {
+  background: rgba(0, 0, 0, 0.76);
+  border-radius: 999px;
+  bottom: 0.45rem;
+  color: #fff;
+  font-weight: 700;
+  padding: 0.18rem 0.5rem;
+  position: absolute;
+  right: 0.45rem;
+}
+
+.stash-hybrid-rec-card__body {
+  padding: 0.65rem 0.7rem 0.75rem;
+}
+
+.stash-hybrid-rec-card__title {
+  display: -webkit-box;
+  font-weight: 650;
+  line-height: 1.25;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+
+.stash-hybrid-rec-card__meta,
+.stash-hybrid-rec-card__reasons {
+  margin-top: 0.35rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.stash-hybrid-onboarding {
+  background: linear-gradient(135deg, rgba(48, 97, 171, 0.18), rgba(73, 35, 118, 0.14));
+  border: 1px solid rgba(117, 170, 255, 0.24);
+  border-radius: 0.75rem;
+  margin-top: 0.8rem;
+  padding: 0.9rem;
+}
+
+.stash-hybrid-onboarding__head {
+  align-items: flex-start;
+  display: flex;
+  gap: 1rem;
+  justify-content: space-between;
+}
+
+.stash-hybrid-onboarding__head h5 {
+  margin: 0 0 0.3rem;
+}
+
+.stash-hybrid-onboarding__head p,
+.stash-hybrid-onboarding small {
+  color: var(--text-muted, #adb5bd);
+  margin: 0;
+}
+
+.stash-hybrid-onboarding__badge {
+  background: rgba(107, 171, 255, 0.22);
+  border: 1px solid rgba(107, 171, 255, 0.42);
+  border-radius: 999px;
+  color: #d8e8ff;
+  font-size: 0.78rem;
+  font-weight: 700;
+  padding: 0.15rem 0.55rem;
+}
+
+.stash-hybrid-onboarding__grid {
+  display: grid;
+  gap: 0.75rem;
+  grid-template-columns: minmax(230px, 1fr) minmax(260px, 1.4fr);
+  margin-top: 0.85rem;
+}
+
+.stash-hybrid-onboarding__grid label {
+  display: flex;
+  flex-direction: column;
+  gap: 0.28rem;
+  margin: 0;
+}
+
+.stash-hybrid-onboarding__source-row {
+  display: grid;
+  gap: 0.4rem;
+  grid-template-columns: minmax(220px, 1fr);
+}
+
+.stash-hybrid-onboarding__summary {
+  background: rgba(0, 0, 0, 0.18);
+  border-radius: 0.55rem;
+  display: grid;
+  gap: 0.35rem;
+  margin-top: 0.85rem;
+  padding: 0.65rem;
+}
+
+.stash-hybrid-db-status {
+  background: rgba(0, 0, 0, 0.16);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 0.55rem;
+  margin-top: 0.85rem;
+  padding: 0.75rem;
+}
+
+.stash-hybrid-db-status__head {
+  align-items: flex-start;
+  display: flex;
+  gap: 0.75rem;
+  justify-content: space-between;
+}
+
+.stash-hybrid-db-status__head h6 {
+  margin: 0 0 0.2rem;
+}
+
+.stash-hybrid-db-status__head p,
+.stash-hybrid-db-status__hint,
+.stash-hybrid-db-status__cache span,
+.stash-hybrid-db-status__metric span {
+  color: var(--text-muted, #adb5bd);
+  font-size: 0.82rem;
+}
+
+.stash-hybrid-db-status__head p,
+.stash-hybrid-db-status__hint {
+  margin: 0;
+}
+
+.stash-hybrid-db-status__metrics {
+  display: grid;
+  gap: 0.5rem;
+  grid-template-columns: repeat(auto-fit, minmax(110px, 1fr));
+  margin-top: 0.65rem;
+}
+
+.stash-hybrid-db-status__metric {
+  background: rgba(255, 255, 255, 0.045);
+  border-radius: 0.4rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.1rem;
+  min-width: 0;
+  padding: 0.5rem 0.55rem;
+}
+
+.stash-hybrid-db-status__metric strong,
+.stash-hybrid-db-status__cache strong {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.stash-hybrid-db-status__caches {
+  display: grid;
+  gap: 0.45rem;
+  margin-top: 0.65rem;
+}
+
+.stash-hybrid-db-status__cache {
+  align-items: center;
+  background: rgba(255, 255, 255, 0.04);
+  border-radius: 0.4rem;
+  display: grid;
+  gap: 0.45rem;
+  grid-template-columns: minmax(130px, 1fr) minmax(110px, auto) minmax(120px, auto);
+  min-width: 0;
+  padding: 0.48rem 0.55rem;
+}
+
+.stash-hybrid-onboarding__steps {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 0.85rem;
+}
+
+.stash-hybrid-onboarding__automation {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.65rem;
+  margin-top: 0.75rem;
+}
+
+.stash-hybrid-onboarding__toggle {
+  align-items: center;
+  display: flex;
+  gap: 0.45rem;
+  margin: 0;
+}
+
+.stash-hybrid-onboarding__toggle input {
+  margin: 0;
+}
+
+.stash-hybrid-onboarding__auto-state,
+.stash-hybrid-onboarding__auto-error {
+  color: var(--text-muted, #adb5bd);
+  font-size: 0.82rem;
+}
+
+.stash-hybrid-onboarding__auto-error {
+  color: #f5b5b5;
+}
+
+.stash-hybrid-onboarding__import {
+  margin-top: 0.85rem;
+}
+
+.stash-hybrid-onboarding__import label {
+  display: flex;
+  flex-direction: column;
+  gap: 0.28rem;
+  margin: 0;
+}
+
+.stash-hybrid-onboarding__import-row {
+  align-items: center;
+  display: grid;
+  gap: 0.5rem;
+  grid-template-columns: minmax(220px, 1fr) auto;
+}
+
+.stash-hybrid-onboarding__dev {
+  margin-top: 0.85rem;
+}
+
+.stash-hybrid-onboarding__dev .btn {
+  margin-top: 0.55rem;
+}
+
+.stash-hybrid-onboarding__alert {
+  margin: 0.85rem 0 0;
+}
+
+.stash-hybrid-onboarding__details {
+  background: rgba(0, 0, 0, 0.34);
+  border-radius: 0.5rem;
+  color: #dbeafe;
+  font-size: 0.78rem;
+  margin: 0.85rem 0 0;
+  max-height: 260px;
+  overflow: auto;
+  padding: 0.65rem;
+}
+
+@media (max-width: 760px) {
+  .stash-hybrid-rec__header {
+    display: block;
+  }
+
+  .stash-hybrid-rec__actions {
+    justify-content: flex-start;
+    margin-top: 0.75rem;
+  }
+
+  .stash-hybrid-rec__settings,
+  .stash-hybrid-db-status__cache,
+  .stash-hybrid-onboarding__grid,
+  .stash-hybrid-onboarding__import-row,
+  .stash-hybrid-onboarding__source-row {
+    grid-template-columns: 1fr;
+  }
+
+  .stash-hybrid-rec__grid {
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  }
+}

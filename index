@@ -1,0 +1,9 @@
+- id: stash-hybrid-recommendations
+  name: Stash Hybrid Recommendations
+  version: 1.1.0
+  date: '2026-05-08 00:00:00'
+  path: zips/stash-hybrid-recommendations.zip
+  sha256: 47c841b846da562c606ebaba4ac606aef3dfe70409439e74105d8057ac19298a
+  metadata:
+    packageRole: onboarding-ui
+    pluginId: StashHybridRecommendations

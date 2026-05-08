@@ -1,0 +1,4 @@
+.DS_Store
+*.tmp
+engine/go/stash-hybrid-engine
+engine/go/stash-hybrid-engine.exe

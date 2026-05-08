@@ -1,0 +1,110 @@
+- id: stash-hybrid-recommendations-engine-linux-amd64
+  name: Stash Hybrid Recommendations Engine - Linux amd64
+  version: 1.1.0
+  date: '2026-05-08 00:00:00'
+  path: zips/stash-hybrid-recommendations-engine-linux-amd64.zip
+  sha256: f3e2fcdf5093cd4ddc09158ce328935ed7b116486a5cb5b999fe6b14a284c057
+  metadata:
+    target: linux-amd64
+    enginePluginId: StashHybridRecommendationsEngineLinuxAmd64
+    packageRole: engine
+    binary: stash-hybrid-engine
+- id: stash-hybrid-recommendations-engine-linux-arm64v8
+  name: Stash Hybrid Recommendations Engine - Linux arm64 v8
+  version: 1.1.0
+  date: '2026-05-08 00:00:00'
+  path: zips/stash-hybrid-recommendations-engine-linux-arm64v8.zip
+  sha256: dcc7efb1171cfc8988227db4d7d6a6da4ecb086ed0c100000a17373e5e6d39d5
+  metadata:
+    target: linux-arm64v8
+    enginePluginId: StashHybridRecommendationsEngineLinuxArm64v8
+    packageRole: engine
+    binary: stash-hybrid-engine
+- id: stash-hybrid-recommendations-engine-linux-arm32v7
+  name: Stash Hybrid Recommendations Engine - Linux arm32 v7
+  version: 1.1.0
+  date: '2026-05-08 00:00:00'
+  path: zips/stash-hybrid-recommendations-engine-linux-arm32v7.zip
+  sha256: adeb00cc3532bec25aeffc8d696157da4976bafb445361ff12ca7aae5d5432a4
+  metadata:
+    target: linux-arm32v7
+    enginePluginId: StashHybridRecommendationsEngineLinuxArm32v7
+    packageRole: engine
+    binary: stash-hybrid-engine
+- id: stash-hybrid-recommendations-engine-linux-arm32v6
+  name: Stash Hybrid Recommendations Engine - Linux arm32 v6
+  version: 1.1.0
+  date: '2026-05-08 00:00:00'
+  path: zips/stash-hybrid-recommendations-engine-linux-arm32v6.zip
+  sha256: b50cc448776f2d8145c1aeff11c9172c87ea7f98e86f5b34a825887d3dc0b6e3
+  metadata:
+    target: linux-arm32v6
+    enginePluginId: StashHybridRecommendationsEngineLinuxArm32v6
+    packageRole: engine
+    binary: stash-hybrid-engine
+- id: stash-hybrid-recommendations-engine-macos-arm64
+  name: Stash Hybrid Recommendations Engine - macOS arm64
+  version: 1.1.0
+  date: '2026-05-08 00:00:00'
+  path: zips/stash-hybrid-recommendations-engine-macos-arm64.zip
+  sha256: 107dd9b726eb762de1420f74e8fc3267001ccdb08bf17300bf86dc6893d09879
+  metadata:
+    target: macos-arm64
+    enginePluginId: StashHybridRecommendationsEngineMacosArm64
+    packageRole: engine
+    binary: stash-hybrid-engine
+- id: stash-hybrid-recommendations-engine-macos-amd64
+  name: Stash Hybrid Recommendations Engine - macOS amd64
+  version: 1.1.0
+  date: '2026-05-08 00:00:00'
+  path: zips/stash-hybrid-recommendations-engine-macos-amd64.zip
+  sha256: 596e41d7d6e46bea30892b3ce5c2107018b8ca58fd8b610d1fdd5cd158137044
+  metadata:
+    target: macos-amd64
+    enginePluginId: StashHybridRecommendationsEngineMacosAmd64
+    packageRole: engine
+    binary: stash-hybrid-engine
+- id: stash-hybrid-recommendations-engine-windows-amd64
+  name: Stash Hybrid Recommendations Engine - Windows amd64
+  version: 1.1.0
+  date: '2026-05-08 00:00:00'
+  path: zips/stash-hybrid-recommendations-engine-windows-amd64.zip
+  sha256: cb5579e5eb321ac8f1614c90c92ba340c72358b223f52ac3eb579731a44d7654
+  metadata:
+    target: windows-amd64
+    enginePluginId: StashHybridRecommendationsEngineWindowsAmd64
+    packageRole: engine
+    binary: stash-hybrid-engine.exe
+- id: stash-hybrid-recommendations-engine-windows-arm64
+  name: Stash Hybrid Recommendations Engine - Windows arm64
+  version: 1.1.0
+  date: '2026-05-08 00:00:00'
+  path: zips/stash-hybrid-recommendations-engine-windows-arm64.zip
+  sha256: 63aeb6d9051c6e9ad1a016e574755a28f6dc0ecfb49cd92d9a7868e6dfa2dc2d
+  metadata:
+    target: windows-arm64
+    enginePluginId: StashHybridRecommendationsEngineWindowsArm64
+    packageRole: engine
+    binary: stash-hybrid-engine.exe
+- id: stash-hybrid-recommendations-engine-freebsd-amd64
+  name: Stash Hybrid Recommendations Engine - FreeBSD amd64
+  version: 1.1.0
+  date: '2026-05-08 00:00:00'
+  path: zips/stash-hybrid-recommendations-engine-freebsd-amd64.zip
+  sha256: f7e048bb061fe4c2a9c8aa2a908eada932ade4be089161b5787f21aff3f8916c
+  metadata:
+    target: freebsd-amd64
+    enginePluginId: StashHybridRecommendationsEngineFreebsdAmd64
+    packageRole: engine
+    binary: stash-hybrid-engine
+- id: stash-hybrid-recommendations-engine-freebsd-arm64
+  name: Stash Hybrid Recommendations Engine - FreeBSD arm64
+  version: 1.1.0
+  date: '2026-05-08 00:00:00'
+  path: zips/stash-hybrid-recommendations-engine-freebsd-arm64.zip
+  sha256: c1b8578ab8ccca9a217057b75d37e29c8a2965839a91ba373916ad4d84492118
+  metadata:
+    target: freebsd-arm64
+    enginePluginId: StashHybridRecommendationsEngineFreebsdArm64
+    packageRole: engine
+    binary: stash-hybrid-engine

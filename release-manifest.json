@@ -1,0 +1,109 @@
+{
+  "publicRepository": "gomeng-dev/stash-recommendation-server",
+  "packageSourceUrl": "https://raw.githubusercontent.com/gomeng-dev/stash-recommendation-server/main/index",
+  "engineSourceUrl": "https://raw.githubusercontent.com/gomeng-dev/stash-recommendation-server/main/engines",
+  "packageVersion": "1.1.0",
+  "sourceTag": "v1.1.0",
+  "publishedAt": "2026-05-08T17:10:41Z",
+  "files": [
+    ".gitignore",
+    "README.md",
+    "engine/go/README.md",
+    "engine/go/go.mod",
+    "engine/go/go.sum",
+    "engine/go/internal/engine/engine.go",
+    "engine/go/internal/engine/engine_test.go",
+    "engine/go/internal/graphql/client.go",
+    "engine/go/internal/graphql/client_test.go",
+    "engine/go/internal/pluginio/pluginio.go",
+    "engine/go/internal/pluginio/pluginio_test.go",
+    "engine/go/internal/scoring/scoring.go",
+    "engine/go/internal/scoring/scoring_test.go",
+    "engine/go/internal/store/store.go",
+    "engine/go/internal/store/store_test.go",
+    "engines",
+    "engines.yml",
+    "index",
+    "index.yml",
+    "package-lock.json",
+    "package.json",
+    "plugins/StashHybridRecommendations/StashHybridRecommendations.yml",
+    "plugins/StashHybridRecommendations/stashHybridRecommendations.css",
+    "plugins/StashHybridRecommendations/stashHybridRecommendations.js",
+    "plugins/StashHybridRecommendations/stashHybridRecommendationsCore.js",
+    "plugins/StashHybridRecommendations/tests/core.test.mjs",
+    "plugins/StashHybridRecommendations/tests/ui-render-safety.test.mjs",
+    "scripts/build-stash-plugin-packages.py",
+    "scripts/secret-scan.mjs",
+    "scripts/stage-public-release.py",
+    "scripts/validate-stash-plugin-packages.py",
+    "zips/stash-hybrid-recommendations-engine-freebsd-amd64.zip",
+    "zips/stash-hybrid-recommendations-engine-freebsd-arm64.zip",
+    "zips/stash-hybrid-recommendations-engine-linux-amd64.zip",
+    "zips/stash-hybrid-recommendations-engine-linux-arm32v6.zip",
+    "zips/stash-hybrid-recommendations-engine-linux-arm32v7.zip",
+    "zips/stash-hybrid-recommendations-engine-linux-arm64v8.zip",
+    "zips/stash-hybrid-recommendations-engine-macos-amd64.zip",
+    "zips/stash-hybrid-recommendations-engine-macos-arm64.zip",
+    "zips/stash-hybrid-recommendations-engine-windows-amd64.zip",
+    "zips/stash-hybrid-recommendations-engine-windows-arm64.zip",
+    "zips/stash-hybrid-recommendations.zip"
+  ],
+  "zips": [
+    {
+      "path": "zips/stash-hybrid-recommendations-engine-freebsd-amd64.zip",
+      "sha256": "f7e048bb061fe4c2a9c8aa2a908eada932ade4be089161b5787f21aff3f8916c",
+      "size": 8640879
+    },
+    {
+      "path": "zips/stash-hybrid-recommendations-engine-freebsd-arm64.zip",
+      "sha256": "c1b8578ab8ccca9a217057b75d37e29c8a2965839a91ba373916ad4d84492118",
+      "size": 8133871
+    },
+    {
+      "path": "zips/stash-hybrid-recommendations-engine-linux-amd64.zip",
+      "sha256": "f3e2fcdf5093cd4ddc09158ce328935ed7b116486a5cb5b999fe6b14a284c057",
+      "size": 8706663
+    },
+    {
+      "path": "zips/stash-hybrid-recommendations-engine-linux-arm32v6.zip",
+      "sha256": "b50cc448776f2d8145c1aeff11c9172c87ea7f98e86f5b34a825887d3dc0b6e3",
+      "size": 8225805
+    },
+    {
+      "path": "zips/stash-hybrid-recommendations-engine-linux-arm32v7.zip",
+      "sha256": "adeb00cc3532bec25aeffc8d696157da4976bafb445361ff12ca7aae5d5432a4",
+      "size": 8212490
+    },
+    {
+      "path": "zips/stash-hybrid-recommendations-engine-linux-arm64v8.zip",
+      "sha256": "dcc7efb1171cfc8988227db4d7d6a6da4ecb086ed0c100000a17373e5e6d39d5",
+      "size": 8212681
+    },
+    {
+      "path": "zips/stash-hybrid-recommendations-engine-macos-amd64.zip",
+      "sha256": "596e41d7d6e46bea30892b3ce5c2107018b8ca58fd8b610d1fdd5cd158137044",
+      "size": 8563372
+    },
+    {
+      "path": "zips/stash-hybrid-recommendations-engine-macos-arm64.zip",
+      "sha256": "107dd9b726eb762de1420f74e8fc3267001ccdb08bf17300bf86dc6893d09879",
+      "size": 8198435
+    },
+    {
+      "path": "zips/stash-hybrid-recommendations-engine-windows-amd64.zip",
+      "sha256": "cb5579e5eb321ac8f1614c90c92ba340c72358b223f52ac3eb579731a44d7654",
+      "size": 8993184
+    },
+    {
+      "path": "zips/stash-hybrid-recommendations-engine-windows-arm64.zip",
+      "sha256": "63aeb6d9051c6e9ad1a016e574755a28f6dc0ecfb49cd92d9a7868e6dfa2dc2d",
+      "size": 8410295
+    },
+    {
+      "path": "zips/stash-hybrid-recommendations.zip",
+      "sha256": "47c841b846da562c606ebaba4ac606aef3dfe70409439e74105d8057ac19298a",
+      "size": 13992
+    }
+  ]
+}

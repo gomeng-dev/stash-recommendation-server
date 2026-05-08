@@ -1,0 +1,17 @@
+name: Stash Hybrid Recommendations
+description: Adds a Hybrid Recommendations tab to scene pages and a Settings > Plugins setup flow for installing the managed recommendation engine.
+version: 0.3.1
+url: https://github.com/gomeng-dev/stash-recommendation-server
+ui:
+  javascript:
+    - stashHybridRecommendationsCore.js
+    - stashHybridRecommendations.js
+  css:
+    - stashHybridRecommendations.css
+  csp:
+    connect-src:
+      - http://localhost:4174
+      - http://127.0.0.1:4174
+      - http://192.168.0.216:4174
+      - http://*:4174
+      - https://*:4174

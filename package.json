@@ -1,0 +1,20 @@
+{
+  "name": "stash-hybrid-recommendations",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Stash Hybrid Recommendations plugin package and Go engine tooling.",
+  "scripts": {
+    "test": "node plugins/StashHybridRecommendations/tests/core.test.mjs && node plugins/StashHybridRecommendations/tests/ui-render-safety.test.mjs",
+    "test:go": "cd engine/go && go test ./...",
+    "test:all": "npm test && npm run test:go",
+    "secret:scan": "node scripts/secret-scan.mjs",
+    "package:stash": "python3 scripts/build-stash-plugin-packages.py",
+    "package:stash:validate": "python3 scripts/validate-stash-plugin-packages.py",
+    "stage:public": "python3 scripts/stage-public-release.py",
+    "queue:status": "cat AUTO_QUEUE.md"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}
